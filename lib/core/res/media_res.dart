@@ -6,4 +6,5 @@ class MediaRes {
   static const _baseImages = 'assets/images';
   static const onBoardingBackground = '';
   static const pageUnderConstruction = '';
+  static const casualReading = 'assets/images';
 }

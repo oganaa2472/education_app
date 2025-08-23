@@ -1,7 +1,7 @@
 import 'package:education_app/core/res/colours.dart';
 import 'package:education_app/core/res/fonts.dart';
 import 'package:education_app/core/services/router.dart';
-import 'package:education_app/src/presentation/on_boarding_screen.dart';
+import 'package:education_app/src/domain/presentation/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

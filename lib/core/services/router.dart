@@ -1,5 +1,5 @@
  import 'package:education_app/core/common/views/page_under_construction.dart';
-import 'package:education_app/src/presentation/on_boarding_screen.dart';
+import 'package:education_app/src/domain/presentation/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings){
