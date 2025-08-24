@@ -11,7 +11,7 @@ class PageContent extends Equatable{
   const PageContent.first():this(image:MediaRes.casualReading,title: 'Brand new curriculum',
   description: 'This is the first online education platform designed by the '
   "world's top professors");
-    const PageContent.second():this(image:MediaRes.casualReading,title: 'Brand a fun atmosphere',
+    const PageContent.second():this(image:MediaRes.casualLife,title: 'Brand a fun atmosphere',
   description: 'This is the first online education platform designed by the '
   "world's top professors");
     const PageContent.third():this(image:MediaRes.casualMeditationScience,

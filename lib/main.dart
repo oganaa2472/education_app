@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         fontFamily: Fonts.poppins,
+        scaffoldBackgroundColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         appBarTheme: AppBarTheme(color: Colors.transparent),
         colorScheme: ColorScheme.fromSwatch(accentColor: Colours.primaryColour)
