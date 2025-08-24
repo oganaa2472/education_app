@@ -10,11 +10,10 @@ class ServerException extends Equatable implements Exception{
   List<Object?> get props => [message,statusCode];
 }
 class CacheException extends Equatable implements Exception{
-  const CacheException({required this.message,required this.statusCode});
+  const CacheException({required this.message});
   final String message;
-  final String statusCode;
-  
+
   @override
   // TODO: implement props
-  List<Object?> get props => [message,statusCode];
+  List<Object?> get props => [message];
 }
