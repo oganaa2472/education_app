@@ -2,7 +2,9 @@ import 'package:education_app/core/extensions/context_extension.dart';
 import 'package:education_app/core/res/colours.dart';
 import 'package:education_app/core/res/fonts.dart';
 import 'package:education_app/src/on_boarding/domain/page_content.dart';
+import 'package:education_app/src/on_boarding/presentation/cubit/on_boarding_cubit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class OnBoardingBody extends StatelessWidget {
   const OnBoardingBody({super.key, required this.pageContent});
@@ -40,6 +42,8 @@ class OnBoardingBody extends StatelessWidget {
                   foregroundColor: Colors.white
                 ),
                 onPressed: () async {
+
+                  context.read<OnBoardingCubit>().cacheFirstTimer();
                   // TODO (Get-Started)
                 }, 
                 child: Text('Get Started',
