@@ -38,6 +38,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               Navigator.pushReplacementNamed(context, '/home');
             }else if(state is UserCached){
               // TODO  login page -- user cache handler
+                Navigator.pushReplacementNamed(context, '/');
             }
           },
           builder: (context,state){
